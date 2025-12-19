@@ -97,3 +97,30 @@ main {
 ul {
   list-style: none;
 }
+/* Toolbar styles */
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0 18px;
+}
+
+.toolbar button {
+  padding: 6px 10px;
+  border: 1px solid #cfcfcf;
+  background: #f7f7f7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #f0f0f0;
+}
+
+@media print {
+  .toolbar {
+    display: none;
+  }
+  body {
+    margin: 0;
+  }
+}
