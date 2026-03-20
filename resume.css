@@ -1,126 +1,67 @@
 body {
-  margin: 0 30px;
-}
-/* Minimal, readable resume styles */
-html,
-body {
-  height: 100%;
-}
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: #111;
-  line-height: 1.5;
-  max-width: 850px;
-  margin: 36px auto;
-  padding: 0 18px;
-  background: #fff;
+  line-height: 1.35;
+  margin: 24px;
 }
-
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
 header h1 {
   margin: 0;
   font-size: 28px;
 }
-
-header h2 {
-  margin: 6px 0 18px;
-  font-size: 16px;
+header p {
+  margin: 6px 0 18px 0;
   color: #333;
-  font-weight: 600;
 }
-
 h3 {
-  margin-top: 24px;
-  margin-bottom: 8px;
-  font-size: 18px;
-  color: #111;
+  margin-top: 18px;
+  font-size: 16px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 6px;
 }
-
-.period {
-  margin: 0 0 8px;
-  font-size: 0.95rem;
-  color: #666;
+.contact {
+  margin: 6px 0 12px 0;
+  font-size: 14px;
 }
-
-.company-name {
-  font-weight: 600;
-}
-
-ul {
-  margin: 0 0 16px 20px;
-  padding: 0;
-}
-
-li {
-  margin: 6px 0;
-}
-
-article {
+.section {
   margin-bottom: 12px;
 }
-
-main {
-  background: transparent;
-}
-
-@media (max-width: 520px) {
-  body {
-    padding: 0 12px;
-  }
-  header h1 {
-    font-size: 22px;
-  }
-}
-/* Skills and links */
-.skills {
-  margin: 6px 0 12px;
-}
-
-.links {
+.company {
+  font-weight: 700;
   margin: 0;
-  padding-left: 0;
 }
-
-.links li {
-  list-style: none;
-  margin: 6px 0;
+.role {
+  margin: 6px 0 0 0;
+  font-weight: 600;
 }
-
-.links a {
-  color: #0b66c3;
-  text-decoration: none;
-}
-
-.links a:hover {
-  text-decoration: underline;
+.period {
+  color: #666;
+  font-size: 13px;
+  margin: 2px 0 8px 0;
 }
 ul {
-  list-style: none;
+  margin: 6px 0 12px 18px;
 }
-/* Toolbar styles */
-.toolbar {
-  display: flex;
-  gap: 10px;
-  margin: 12px 0 18px;
+li {
+  margin-bottom: 6px;
 }
-
-.toolbar button {
-  padding: 6px 10px;
-  border: 1px solid #cfcfcf;
-  background: #f7f7f7;
-  border-radius: 4px;
-  cursor: pointer;
+.skills p {
+  margin: 4px 0;
 }
-
-.toolbar button:hover {
-  background: #f0f0f0;
+.links a {
+  color: #0066cc;
+  text-decoration: none;
 }
-
+footer {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #444;
+}
 @media print {
-  .toolbar {
-    display: none;
-  }
   body {
-    margin: 0;
+    margin: 12px;
   }
 }

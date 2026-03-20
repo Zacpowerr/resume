@@ -1,122 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Eduardo Bastos — Software Engineer</title>
     <link rel="stylesheet" href="resume.css" />
-    <title>Eduardo Bastos — Resume</title>
   </head>
   <body>
     <main>
       <header>
         <h1>Eduardo Bastos</h1>
-        <h2>Full-Stack Developer</h2>
+        <p>
+          <strong>Software Engineer (Full‑Stack, backend‑focused)</strong> •
+          Remote Canada / Edmonton
+        </p>
+        <p class="contact">
+          <a href="mailto:e_kempfer@hotmail.com">e_kempfer@hotmail.com</a> •
+          <a href="https://github.com/Zacpowerr" class="links"
+            >github.com/Zacpowerr</a
+          >
+          •
+          <a href="https://www.linkedin.com/in/eduardokbastos" class="links"
+            >linkedin.com/in/eduardokbastos</a
+          >
+        </p>
       </header>
 
-      <section>
+      <section class="section">
         <h3>Professional Summary</h3>
         <p>
-          Full-Stack Developer with nearly a decade of experience building web
-          applications, automation scripts, and data integrations. I focus on
-          practical solutions that solve client problems and simplify workflows.
-          I work across the stack (frontend, backend, databases, and cloud) and
-          collaborate directly with stakeholders to define scope and deliver
-          reliable software.
+          Software Engineer with 5+ years building production web applications,
+          REST and GraphQL APIs, ETL pipelines, and third‑party integrations.
+          Backend‑focused (Node.js, Express, PostgreSQL, Prisma) with hands‑on
+          experience designing scheduled data syncs, automation for analytics,
+          and client integrations.
         </p>
       </section>
 
-      <section>
+      <section class="section">
         <h3>Work History</h3>
 
         <article>
-          <h4 class="role">Full-Stack Software Developer</h4>
-          <p class="company-name">Output</p>
+          <p class="role">Full‑Stack Software Developer</p>
+          <p class="company">Output</p>
           <p class="period">June 2022 — June 2025</p>
           <ul>
             <li>
-              Developed full-stack web applications and customer-facing
-              interfaces using React and Next.js, prioritizing performance and
-              accessibility.
+              Designed and implemented a Jobber GraphQL sync service that
+              fetched data hourly for 5–10 client accounts (≈150 hourly pulls),
+              normalized results, and stored ~15k rows for analytics
+              consumption.
             </li>
             <li>
-              Built and maintained RESTful APIs with Node.js and Express,
-              implementing authentication, validation, and error handling.
+              Built backend services and APIs with Node.js, Express, and Prisma
+              to support data ingestion, transformation, and reporting pipelines
+              consumed by DOMO dashboards.
             </li>
             <li>
-              Designed and managed relational and NoSQL schemas (MySQL,
-              Firebase) and used Prisma for data modeling and migrations.
+              Created ETL and automation routines (Google Apps Script, custom
+              connectors) to ingest TELUS billing exports and Google Sheets
+              data, reducing manual reconciliation steps for stakeholders.
             </li>
             <li>
-              Created ETL and automation services to ingest, transform, and
-              normalize client data (including Jobber exports and TELUS billing
-              records) for reporting and analytics pipelines.
+              Integrated third‑party systems (QuickBooks Online, Xero, HubSpot,
+              Typeform) via API connectors to automate client workflows and
+              improve data consistency across systems.
             </li>
             <li>
-              Implemented custom data connectors and integrations (Jobber,
-              Google Sheets) and automated document exports from Google Sheets
-              to PDF using Google Apps Script.
-            </li>
-            <li>
-              Developed DOMO dashboards and reports to visualize client metrics
-              and support decision-making for stakeholders.
-            </li>
-            <li>
-              Created automation routines to process incoming emails, extract
-              relevant data, and insert results into reporting databases.
-            </li>
-            <li>
-              Integrated third-party systems such as QuickBooks Online, Xero,
-              Typeform, and HubSpot via APIs and custom connectors to streamline
-              client workflows.
-            </li>
-            <li>
-              Designed and delivered a Jobber data-extraction service using
-              GraphQL to periodically sync client accounts and transform the
-              results for use in analytics dashboards.
-            </li>
-            <li>
-              Used UI libraries (Ant Design, DaisyUI, TailwindCSS) to build
-              responsive, maintainable interfaces and collaborated with product
-              owners to refine requirements and delivery timelines.
-            </li>
-            <li>
-              Participated in Agile ceremonies, handled incoming tickets and
-              feature requests, and communicated with clients and stakeholders
-              to clarify scope and priorities.
+              Collaborated with product owners to define requirements,
+              prioritized tickets in Agile ceremonies, and delivered
+              client‑facing features using React/Next.js and TailwindCSS.
             </li>
           </ul>
         </article>
 
         <article>
-          <h4 class="role">Full-Stack Software Developer</h4>
-          <p class="company-name">Departamento da TI</p>
+          <p class="role">Full‑Stack Software Developer</p>
+          <p class="company">Departamento da TI</p>
           <p class="period">Nov 2019 — Nov 2021</p>
           <ul>
             <li>
-              Developed web applications using PHP and the Laravel framework,
-              focusing on clean architecture and reusability.
+              Developed modular web applications with Laravel and Angular;
+              modernized legacy modules and improved maintainability through
+              refactoring and componentization.
             </li>
             <li>
-              Built mobile-friendly web applications with Angular and integrated
-              them with Firebase backends for authentication and realtime
-              features.
+              Implemented Firebase authentication and realtime features for
+              mobile‑friendly apps, enabling improved user interactions and
+              faster feature delivery.
             </li>
             <li>
-              Maintained and modernized legacy websites, applying responsive and
-              mobile-first design principles and leveraging UI libraries to
-              improve usability.
-            </li>
-            <li>
-              Collaborated with designers and stakeholders to translate mockups
-              into accessible, production-ready pages and supported deployment
-              and ongoing maintenance.
+              Worked with designers to translate mockups into accessible,
+              production‑ready pages and supported deployments and maintenance
+              activities.
             </li>
           </ul>
         </article>
 
         <article>
-          <h4 class="role">Intern Java Developer</h4>
-          <p class="company-name">Estudio Guarapavu</p>
+          <p class="role">Intern Java Developer</p>
+          <p class="company">Estudio Guarapavu</p>
           <p class="period">Aug 2019 — Nov 2019</p>
           <ul>
             <li>
@@ -127,54 +110,131 @@
         </article>
 
         <article>
-          <h4 class="role">Intern Java Developer</h4>
-          <p class="company-name">Tzion</p>
+          <p class="role">Intern Java Developer</p>
+          <p class="company">Tzion</p>
           <p class="period">Apr 2019 — Aug 2019</p>
           <ul>
             <li>
-              Assisted in building web-scraping RPA tools and optimizing regular
-              expressions for data extraction.
+              Assisted in building web‑scraping RPA tools and optimized regular
+              expressions for data extraction tasks.
             </li>
           </ul>
         </article>
       </section>
 
-      <section>
-        <h3>Skills</h3>
-        <p class="skills">
-          <strong>Languages & Frameworks:</strong> JavaScript, TypeScript,
-          React, Next.js, Node.js, Express, Java, Python, C++, PHP, Angular,
-          HTML, CSS
+      <section class="section">
+        <h3>Selected Projects</h3>
+
+        <article>
+          <p class="company">Jobber Sync Service</p>
+          <p class="period">Node.js • GraphQL • Prisma • PostgreSQL</p>
+          <ul>
+            <li>
+              Architected and developed a scheduled sync that polled Jobber’s
+              GraphQL API hourly for multiple client accounts, normalized data,
+              and fed analytics dashboards used by stakeholders for billing and
+              operations.
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="company">Budget App</p>
+          <p class="period">Python • Flask</p>
+          <ul>
+            <li>
+              Personal finance web app demonstrating backend routing,
+              authentication, and CRUD operations. Repo:
+              <a href="https://github.com/Zacpowerr/budget-app"
+                >github.com/Zacpowerr/budget-app</a
+              >
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <p class="company">Automation & ETL Routines</p>
+          <p class="period">Google Apps Script • DOMO • Google Sheets</p>
+          <ul>
+            <li>
+              Built automation to export Google Sheets to PDF, process incoming
+              emails for data extraction, and populate reporting databases for
+              client dashboards.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h3>Technical Skills</h3>
+        <div class="skills">
+          <p>
+            <strong>Languages:</strong> JavaScript, TypeScript, Python, Java,
+            PHP
+          </p>
+          <p>
+            <strong>Frontend:</strong> React, Next.js, Angular, TailwindCSS, Ant
+            Design, Ionic
+          </p>
+          <p>
+            <strong>Backend & APIs:</strong> Node.js, Express, REST APIs,
+            GraphQL, Laravel, Prisma
+          </p>
+          <p><strong>Databases:</strong> PostgreSQL, MySQL, Firebase, NoSQL</p>
+          <p>
+            <strong>Cloud & DevOps:</strong> GCP, GitHub Actions, CI/CD (intro),
+            Docker (intro)
+          </p>
+          <p>
+            <strong>Tools:</strong> Git, DOMO, Google Apps Script, Google
+            Sheets, QuickBooks API
+          </p>
+          <p><strong>Testing:</strong> Jest (intro)</p>
+          <p>
+            <strong>Hardware / IoT:</strong> Arduino, basic electronics and
+            networking (personal projects)
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Education & Courses</h3>
+
+        <p>
+          <strong>NAIT</strong> — Electronics Engineering (partial; completed
+          ~50% of the program). GPA 4.0 in final semester.
         </p>
-        <p class="skills">
-          <strong>Databases & Tools:</strong> MySQL, PostgreSQL, Firebase,
-          Prisma, GCP, DOMO, Google Sheets, Git
+
+        <p>
+          <strong>Senac</strong> — Diploma in
+          <em>Análise e Desenvolvimento de Sistemas</em> (2019). Officially
+          evaluated as equivalent to an IT Systems diploma in Canada.
         </p>
-        <p class="skills">
-          <strong>Misc:</strong> Arduino, Networking, Linux, Git Actions
+
+        <p>
+          <strong>Selected coursework:</strong> Codecademy — Learn Advanced
+          React; Learn SQL; Intro to DevOps; Intro to Cloud. Udemy — Ionic 4,
+          Angular, Firestore, and Authentication with Facebook.
         </p>
       </section>
 
-      <section>
-        <h3>Links</h3>
-        <ul class="links">
+      <section class="section">
+        <h3>Additional</h3>
+        <ul>
           <li>
-            Email: <a href="e_kempfer@hotmail.com">e_kempfer@hotmail.com</a>
+            Open to remote roles across Canada; available for in‑person work in
+            the Edmonton area.
           </li>
           <li>
-            GitHub:
-            <a href="https://github.com/Zacpowerr" rel="noopener"
-              >github.com/Zacpowerr</a
-            >
-          </li>
-          <li>
-            LinkedIn:
-            <a href="www.linkedin.com/in/eduardokbastos" rel="noopener"
-              >linkedin.com/in/eduardokbastos</a
-            >
+            Hobbyist IoT and Arduino projects — useful for embedded or
+            edge‑device integrations and prototyping.
           </li>
         </ul>
       </section>
+
+      <footer>
+        <p></p>
+      </footer>
     </main>
   </body>
 </html>
